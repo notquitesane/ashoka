@@ -1,0 +1,3 @@
+media-sound/alsa-tools -gtk
+media-sound/alsa-utils doc
+media-sound/pulseaudio X alsa -bluetooth -equalizer gdbm -native-headset orc qt5 -realtime -sox tcpd

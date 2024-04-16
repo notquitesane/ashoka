@@ -1,0 +1,4 @@
+[five]
+location = /usr/local/overlay
+auto-sync = no
+priority = 10

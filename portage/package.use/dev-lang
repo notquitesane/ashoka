@@ -1,0 +1,8 @@
+dev-lang/fpc source
+dev-lang/luajit lua52compat
+dev-lang/perl ithreads berkdb gdbm
+dev-lang/php -apache2 curl gd imap
+dev-lang/python sqlite
+dev-lang/ruby -rdoc
+dev-lang/rust-bin rustfmt
+dev-lang/spidermonkey clang

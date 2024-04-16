@@ -1,0 +1,3 @@
+dev-util/astyle java
+dev-util/cmake qt5
+dev-util/shellcheck -doc

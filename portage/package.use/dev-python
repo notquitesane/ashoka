@@ -1,0 +1,6 @@
+dev-python/PyQt5 declarative gui multimedia network printsupport sql svg webchannel widgets
+dev-python/certifi python_targets_python2_7
+dev-python/numpy lapack
+dev-python/pycairo python_targets_python2_7
+dev-python/pypax ptpax
+dev-python/setuptools python_targets_python2_7

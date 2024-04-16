@@ -1,0 +1,4 @@
+x11-misc/dzen xft xpm
+x11-misc/xbindkeys tk
+x11-misc/xdotool examples
+x11-misc/xscreensaver jpeg perl suid

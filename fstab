@@ -1,0 +1,19 @@
+# == IMPORTANT ==============================================================
+# The 3 lines below need to be *uncommented* and adjusted for your system
+# ===========================================================================
+
+UUID=7367-466B					/boot		vfat		noauto,noatime						1 2
+UUID=5b535aab-77d3-48df-8060-a5f82a9bbce4	none		swap		sw							0 0
+UUID=06deeaac-b844-4348-bdcc-00dbb1298662	/		f2fs		noatime							0 1
+UUID=69297d60-eb5e-4e44-a8f9-debc13d31b0c	/usr		f2fs		noatime							0 1
+UUID=e6995c83-204b-4912-b299-d7e56f1d5e54	/var		f2fs		noatime							0 1
+UUID=9359152f-eaf6-49b9-b886-c4c2ce79242f	/opt		f2fs		noatime							0 1
+
+
+10.255.0.13:/home				/home		nfs4		_netdev,rw,rsize=1048576,wsize=1048576,vers=4		0 0
+10.255.0.13:/media				/media		nfs4		_netdev,rw,rsize=1048576,wsize=1048576,vers=4		0 0
+
+/dev/shm                                        /var/tmp	tmpfs		size=10G,mode=1775       				0 0
+/tmp                                            /dev/shm        tmpfs  		nodev,nosuid,noexec					0 0
+
+# vim: ts=8 sw=8 noet

@@ -1,0 +1,3 @@
+sys-devel/binutils -gold static-libs
+sys-devel/distcc -gtk
+sys-devel/gcc doc fortran go graphite objc objc++ objc-gc vtv

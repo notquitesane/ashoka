@@ -1,0 +1,46 @@
+*/* device-mapper lvm luks
+sys-kernel/linux-firmware initramfs
+sys-fs/cryptsetup -static
+app-emulation/virtualbox-modules -pax_kernel
+# required by media-video/vlc-3.0.18::media-kit[ffmpeg]
+# required by vlc (argument)
+>=media-video/ffmpeg-4.3.1-r2 vdpau vaapi
+# required by sys-kernel/genkernel-4.0.3-r3::core-kit[cryptsetup]
+# required by @selected
+# required by @world (argument)
+>=sys-fs/cryptsetup-2.6.0 static
+# required by sys-fs/cryptsetup-2.6.0::core-kit[-static-libs,static]
+# required by sys-kernel/genkernel-4.0.3-r3::core-kit[cryptsetup]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/popt-1.16-r2 static-libs
+# required by sys-fs/cryptsetup-2.6.0::core-kit[-static-libs,static,argon2]
+# required by sys-kernel/genkernel-4.0.3-r3::core-kit[cryptsetup]
+# required by @selected
+# required by @world (argument)
+>=app-crypt/argon2-20171227-r1 static-libs
+# required by sys-fs/cryptsetup-2.6.0::core-kit[-static-libs,openssl,static]
+# required by sys-kernel/genkernel-4.0.3-r3::core-kit[cryptsetup]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/openssl-1.1.1q static-libs
+# required by sys-fs/cryptsetup-2.6.0::core-kit[-static-libs,static]
+# required by sys-kernel/genkernel-4.0.3-r3::core-kit[cryptsetup]
+# required by @selected
+# required by @world (argument)
+>=sys-fs/lvm2-2.02.173 static-libs
+app-crypt/libmd static-libs
+dev-libs/libbsd static-libs
+virtual/linux-sources firmware
+# required by sys-apps/ramdisk-1.1.5::core-kit
+# required by @selected
+# required by @world (argument)
+>=sys-apps/busybox-1.36.0 static
+# required by dev-util/catfish-4.16.4::xfce-kit
+# required by dev-util/catfish (argument)
+>=xfce-base/xfconf-4.16.0 introspection
+dev-lang/ghc binary
+# required by x11-misc/qcomicbook-0.9.1::desktop-kit
+# required by x11-misc/qcomicbook (argument)
+>=app-text/poppler-24.02.0 qt5
+sys-kernel/debian-sources -luks -lvm -saved-config -savedconfig -logo

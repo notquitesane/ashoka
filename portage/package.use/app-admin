@@ -1,0 +1,5 @@
+app-admin/conky X curl hddtemp imlib iostats lua-cairo lua-imlib math moc mpd rss weather-metar
+app-admin/keepassxc autotype browser
+app-admin/pass dmenu importers
+app-admin/pydf python_targets_python2_7
+app-admin/sudo -skey

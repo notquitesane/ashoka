@@ -1,0 +1,2 @@
+mail-client/mutt berkdb -doc gdbm gpgme pop -tokyocabinet
+mail-client/neomutt gpgme -notmuch sasl slang

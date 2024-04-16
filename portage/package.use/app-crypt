@@ -1,0 +1,3 @@
+app-crypt/gnupg doc smartcard tools usb wks-server
+app-crypt/p11-kit libffi
+app-crypt/pinentry -gnome-keyring

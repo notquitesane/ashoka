@@ -1,0 +1,2 @@
+x11-base/xorg-drivers input_devices_evdev input_devices_libinput -input_devices_synaptics -input_devices_wacom
+x11-base/xorg-server xcsecurity xnest

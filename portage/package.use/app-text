@@ -1,0 +1,6 @@
+app-text/calibre -udisks
+app-text/ghostscript-gpl cups
+app-text/pandoc hscolour
+app-text/poppler cairo curl jpeg -jpeg2k png -qt5 tiff utils
+app-text/xmlto text
+app-text/xournal pdf

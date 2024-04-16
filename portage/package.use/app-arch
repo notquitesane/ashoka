@@ -1,0 +1,3 @@
+app-arch/libarchive expat lzo nettle
+app-arch/p7zip rar
+app-arch/xz-utils static-libs

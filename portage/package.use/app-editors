@@ -1,0 +1,2 @@
+app-editors/nano -magic minimal -spell
+app-editors/vim -X gpm lua perl -ruby vim-pager

@@ -1,0 +1,5 @@
+net-misc/aria2 bittorrent libuv scripts ssh tcmalloc
+net-misc/curl -curl_ssl_gnutls -curl_ssl_nss http2 idn ssh
+net-misc/iputils gcrypt idn
+net-misc/rsync examples lz4 stunnel xxhash zstd
+net-misc/wget idn uuid

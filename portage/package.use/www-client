@@ -1,0 +1,4 @@
+www-client/elinks -bittorrent debug ftp -javascript perl ruby
+www-client/palemoon gtk2 -official-branding threads -devtools
+www-client/palemoon-bin gtk2
+www-client/w3m X imlib

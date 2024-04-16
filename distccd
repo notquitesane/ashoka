@@ -1,0 +1,12 @@
+# /etc/conf.d/distccd: config file for /etc/init.d/distccd
+
+DISTCCD_OPTS="${DISTCCD_OPTS} --port 3632 --log-level debug --log-file /var/log/distccd.log -N 15 --allow 10.255.0.0/28"
+
+# this is the distccd executable
+DISTCCD_EXEC="/usr/bin/distccd"
+
+
+# By default distccd stores temporary files in /tmp
+# Make sure to give distcc user write permission to
+# the given TMPDIR
+#TMPDIR="/tmp"

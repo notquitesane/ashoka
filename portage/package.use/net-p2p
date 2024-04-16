@@ -1,0 +1,3 @@
+net-p2p/qbittorrent -webui
+net-p2p/rtorrent xmlrpc
+net-p2p/transmission -qt5 gtk

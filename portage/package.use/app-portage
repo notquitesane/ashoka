@@ -1,0 +1,4 @@
+app-portage/cfg-update -X
+app-portage/eix doc nls sqlite
+app-portage/layman gpg mercurial sqlite squashfs sync-plugin-portage
+app-portage/overlint python_targets_python2_7

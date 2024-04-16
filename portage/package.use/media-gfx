@@ -1,0 +1,5 @@
+media-gfx/digikam X
+media-gfx/gimp -udev vector-icons xpm
+media-gfx/graphviz X cairo pdf svg
+media-gfx/imagemagick heif
+media-gfx/inkscape imagemagick jpeg

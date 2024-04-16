@@ -1,0 +1,84 @@
+#!/bin/sh
+
+binary="/usr/sbin/wpa_supplicant"
+pidfile="/run/wpa_supplicant/${interface}.pid"
+
+# for CONFIG to work, rc_env_allow in /etc/rc.conf must contain CONFIG in value
+if [ -n "${CONFIG}" ]; then
+    config="/etc/wpa_supplicant/${CONFIG}"
+elif [ -n "${config}" ]; then
+    config="/etc/wpa_supplicant/${config}"
+else
+    config="/etc/wpa_supplicant/${interface}.conf"
+fi
+binary_args="-s -B -i${interface} -P${pidfile} -c${config}"
+
+netif_depend() {
+    need localmount
+    use logger
+    after bootmisc modules
+    before dns dhcpcd net
+}
+
+netif_pre_up() {
+    if [ ! -f "${binary}" ]; then
+        echo "wpa_supplicant binary not found. Did you emerge net-wireless/wpa_supplicant?"
+        exit 1
+    fi
+
+    if [ ! -f "${config}" ]; then
+        echo "There's no ${config} file for interface ${interface} in. Aborting."
+        exit 1
+    fi
+
+    local count=-1
+    local label
+    local bcast
+    for ipnm in $ipaddr $ipaddrs; do
+        if [ $count -ge 0 ]
+        then
+            label=$interface:$count
+        else
+            label=""
+        fi
+        if [ -n "$(if_ipv4 $ipnm)" ]
+        then
+            bcast="broadcast $(get_option "$ipnm" broadcast +)"
+        else
+            bcast=""
+        fi
+        if [ -z "$label" ]
+        then
+            ip addr add $(get_ipnm_part "$ipnm") $bcast \
+ dev $interface || die "Couldn't add $ipnm to $interface"
+        else
+            ip addr add $(get_ipnm_part "$ipnm") $bcast \
+ label $label dev $interface || die "Couldn't add $ipnm to $interface"
+        fi
+        count=$(($count + 1))
+    done
+}
+
+netif_post_up() {
+    if [ -f "${pidfile}" ]; then
+        echo "There's a PID file for interface $interface. Aborting."
+        exit 2
+    fi
+
+    if [ -n "$driver" ]; then
+        binary_args="${binary_args} -D$driver"
+    fi
+
+    if [ ! -e ${pidfile%/*} ]; then
+        mkdir ${pidfile%/*} || exit 1
+    fi
+    $binary $binary_args || die "Couldn't start wpa_supplicant"
+}
+
+netif_pre_down() {
+    if [ ! -f "${pidfile}" ]; then
+        echo "There's no PID file for interface ${interface}. Aborting."
+        exit 3
+    fi
+    start-stop-daemon --stop --exec "${binary}" --pidfile "${pidfile}"
+}

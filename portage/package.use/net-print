@@ -1,0 +1,2 @@
+net-print/cups -acl -usb
+net-print/cups-filters foomatic

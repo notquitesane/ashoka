@@ -1,0 +1,3 @@
+sci-libs/fftw quad
+sci-libs/hdf5 -hl -mpi
+sci-libs/scipy -python_targets_python3_7

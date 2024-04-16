@@ -1,0 +1,17 @@
+boot {
+	generate grub
+	default "Funtoo Linux"
+	timeout 3
+}
+
+"Funtoo Linux" {
+	kernel kernel[-v]
+	initrd initramfs[-v]
+	params += real_root=auto rootfstype=auto
+}
+
+"Funtoo Linux (nomodeset)" {
+	kernel kernel[-v]
+	initrd initramfs[-v]
+	params += real_root=auto rootfstype=auto nomodeset
+}
