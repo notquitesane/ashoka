@@ -1,1 +1,1 @@
-sys-auth/polkit elogind -gtk
+sys-auth/polkit -elogind -gtk
