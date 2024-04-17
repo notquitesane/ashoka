@@ -1,351 +1,112 @@
-app-admin/ccze
-app-admin/cpulimit
-app-admin/eclean-kernel
-app-admin/fetchlog
-app-admin/hddtemp
-app-admin/keepass
-app-admin/logrotate
-app-admin/logsentry
-app-admin/metalog
-app-admin/pprocm
-app-admin/procinfo-ng
-app-admin/ps_mem
-app-admin/pwgen
-app-admin/pydf
-app-admin/restart-services
-app-admin/sagan
-app-admin/sshguard
-app-admin/stow
-app-admin/sudo
-app-admin/superadduser
-app-admin/tmpreaper
-app-admin/usbview
-app-admin/verynice
-app-admin/xtail
-app-admin/yadm
-app-arch/advancecomp
-app-arch/p7zip
-app-arch/pxz
-app-arch/unrar
+app-admin/ccze app-admin/cpulimit app-admin/fetchlog app-admin/hddtemp app-admin/keepass app-admin/logrotate app-admin/logsentry app-admin/pprocm app-admin/procinfo-ng app-admin/ps_mem app-admin/pwgen app-admin/pydf 
+app-admin/restart-services app-admin/sagan app-admin/sshguard app-admin/stow app-admin/tmpreaper app-admin/usbview app-admin/verynice app-admin/xtail app-admin/yadm
+
+app-arch/advancecomp app-arch/p7zip app-arch/pxz app-arch/unrar
+
 app-backup/borgbackup
-app-benchmarks/bonnie
-app-benchmarks/bootchart2
-app-benchmarks/dbench
-app-benchmarks/i7z
-app-benchmarks/interbench
-app-benchmarks/ioping
-app-benchmarks/iozone
-app-benchmarks/nbench
-app-benchmarks/pipebench
-app-benchmarks/ramspeed
-app-benchmarks/stress
-app-benchmarks/tiobench
-app-cdr/ccd2iso
-app-cdr/cdrtools
-app-crypt/gentoo-keys
-app-crypt/gpa
-app-crypt/keylookup
-app-crypt/paperkey
-app-crypt/rhash
-app-crypt/tpm-tools
-app-doc/eclass-manpages
-app-doc/jargon
-app-doc/vilearn
-app-emulation/virtualbox
-app-emulation/x48
-app-eselect/eselect-sh
-app-eselect/eselect-timezone
-app-forensics/chkrootkit
-app-forensics/cmospwd
-app-forensics/rkhunter
-app-misc/actkbd
-app-misc/asciinema
-app-misc/away
-app-misc/boxes
-app-misc/ca-certificates
-app-misc/chkcrontab
-app-misc/color
-app-misc/colordiff
-app-misc/delay
-app-misc/detox
-app-misc/fsniper
-app-misc/gcalcli
-app-misc/grc
-app-misc/jail
-app-misc/leave
-app-misc/mc
-app-misc/reptyr
-app-misc/resolve-march-native
-app-misc/tmux
-app-office/dia
-app-office/dia2code
-app-office/libreoffice
-app-officeext/languagetool
-app-officeext/ooo2gd
-app-portage/cpuid2cpuflags
-app-portage/elogv
-app-portage/elogviewer
-app-portage/flaggie
-app-portage/genlop
-app-portage/gentmaint
-app-portage/gentoolkit
-app-portage/golop
-app-portage/layman
-app-portage/logclean
-app-portage/portage-bashrc-mv
-app-portage/portage-utils
-app-portage/portconf
-app-portage/portpeek
-app-portage/showem
-app-portage/world-mv
-app-shells/auto-fu-zsh
-app-shells/fast-syntax-highlighting
-app-shells/gentoo-zsh-completions
-app-shells/set_prompt
-app-shells/thefuck
-app-shells/zsh-autosuggestions
-app-shells/zsh-completions
-app-shells/zsh-syntax-highlighting
-app-text/ansifilter
-app-text/html2text
-app-text/qpdf
-app-text/wgetpaste
-app-vim/align
-app-vim/autoalign
-app-vim/bash-support
-app-vim/brainfuck-syntax
-app-vim/checkattach
-app-vim/closetag
-app-vim/colorschemes
-app-vim/ctrlp
-app-vim/detectindent
-app-vim/dhcpd-syntax
-app-vim/easy-align
-app-vim/errsign
-app-vim/genindent
-app-vim/gist
-app-vim/gitlog
-app-vim/gitv
-app-vim/greputils
-app-vim/gundo
-app-vim/help-extra-syntax
-app-vim/info
-app-vim/l9
-app-vim/languagetool
-app-vim/multiplesearch
-app-vim/neocomplcache
-app-vim/nerdcommenter
-app-vim/pushpop
-app-vim/rainbow_parentheses
-app-vim/recover
-app-vim/reload
-app-vim/searchcomplete
-app-vim/session
-app-vim/syntastic
-app-vim/toggle
-app-vim/udev-syntax
-app-vim/undotree
-app-vim/uptime
-app-vim/vim-autoclose
-app-vim/vim-clang-format
-app-vim/vim-commentary
-app-vim/vim-misc
-app-vim/vim-spell-en
-app-vim/vimagit
-app-vim/vimbuddy
-app-vim/voom
-dev-python/html2text
-dev-python/netifaces
-dev-util/android-tools
-dev-util/cligh
-dev-util/howdoi
-dev-util/linklint
-dev-util/systemtap
+
+app-cdr/ccd2iso app-cdr/cdrtools
+
+app-crypt/gpa app-crypt/keylookup app-crypt/paperkey app-crypt/tpm-tools
+
+app-doc/eclass-manpages app-doc/jargon app-doc/vilearn
+
+app-emulation/virtualbox app-emulation/x48
+
+app-forensics/chkrootkit app-forensics/cmospwd app-forensics/rkhunter
+
+app-misc/actkbd app-misc/asciinema app-misc/away app-misc/boxes app-misc/chkcrontab app-misc/color app-misc/delay app-misc/detox app-misc/fsniper app-misc/gcalcli app-misc/grc app-misc/jail app-misc/leave app-misc/reptyr 
+app-misc/resolve-march-native 
+
+app-office/dia app-office/dia2code app-office/libreoffice
+
+app-officeext/languagetool app-officeext/ooo2gd
+
+app-portage/cpuid2cpuflags app-portage/elogv app-portage/elogviewer app-portage/gentmaint app-portage/logclean app-portage/portage-bashrc-mv app-portage/portconf app-portage/portpeek app-portage/showem app-portage/world-mv
+
+app-shells/auto-fu-zsh app-shells/fast-syntax-highlighting app-shells/gentoo-zsh-completions app-shells/set_prompt app-shells/thefuck app-shells/zsh-autosuggestions app-shells/zsh-completions app-shells/zsh-syntax-highlighting
+
+app-text/ansifilter app-text/html2text app-text/qpdf app-text/wgetpaste 
+
+app-vim/align app-vim/autoalign app-vim/bash-support app-vim/brainfuck-syntax app-vim/checkattach app-vim/closetag app-vim/colorschemes app-vim/ctrlp app-vim/detectindent app-vim/dhcpd-syntax app-vim/easy-align app-vim/errsign
+app-vim/genindent app-vim/gist app-vim/gitlog app-vim/gitv app-vim/greputils app-vim/gundo app-vim/help-extra-syntax app-vim/info app-vim/l9 app-vim/languagetool app-vim/multiplesearch app-vim/neocomplcache app-vim/nerdcommenter
+app-vim/pushpop app-vim/rainbow_parentheses app-vim/recover app-vim/reload app-vim/searchcomplete app-vim/session app-vim/syntastic app-vim/toggle app-vim/udev-syntax app-vim/undotree app-vim/uptime app-vim/vim-autoclose
+app-vim/vim-clang-format app-vim/vim-commentary app-vim/vim-misc app-vim/vim-spell-en app-vim/vimagit app-vim/vimbuddy app-vim/voom
+
+dev-python/html2text dev-python/netifaces
+
+dev-util/android-tools dev-util/cligh dev-util/howdoi dev-util/linklint dev-util/systemtap
+
 dev-vcs/hub
+
 games-board/xmahjongg
-games-misc/fortune-mod-bofh-excuses
-games-misc/fortune-mod-chucknorris
-games-misc/fortune-mod-kernelcookies
-games-misc/fortune-mod-osfortune
-games-misc/fortune-mod-tao
-games-misc/fortune-mod-taow
-games-misc/funny-manpages
-games-misc/wtf
+
+games-misc/fortune-mod-bofh-excuses games-misc/fortune-mod-chucknorris games-misc/fortune-mod-kernelcookies games-misc/fortune-mod-osfortune games-misc/fortune-mod-tao games-misc/fortune-mod-taow games-misc/funny-manpages games-misc/wtf
+
 games-strategy/dopewars
-mail-client/mutt
-mail-client/mutt-wizard
-mail-filter/bmf
-mail-filter/bogofilter
+
+mail-client/mutt mail-client/mutt-wizard
+
+mail-filter/bmf mail-filter/bogofilter
+
 mail-mta/msmtp
-media-fonts/croscorefonts
-media-fonts/terminus-font
-media-gfx/aview
-media-gfx/cura
-media-gfx/feh
-media-gfx/fim
-media-gfx/gifsicle
-media-gfx/gimp
-media-gfx/gpicview
-media-gfx/imagemagick
-media-gfx/jpegtoavi
-media-gfx/pngcheck
-media-gfx/pngcrush
-media-gfx/pngtools
-media-gfx/qiv
-media-gfx/scrot
-media-gfx/sxiv
-media-gfx/termtosvg
-media-gfx/xli
-media-gfx/xv
-media-sound/alsa-tools
-media-sound/mpd
-media-sound/mpg123
-media-sound/mps-youtube
-media-sound/ncmpcpp
-media-sound/pavucontrol
-media-video/mpv
+
+media-fonts/croscorefonts media-fonts/terminus-font
+
+media-gfx/aview media-gfx/cura media-gfx/feh media-gfx/fim media-gfx/gifsicle media-gfx/gimp media-gfx/gpicview  media-gfx/imagemagick media-gfx/jpegtoavi media-gfx/pngcheck media-gfx/pngcrush media-gfx/pngtools media-gfx/qiv
+media-gfx/scrot media-gfx/sxiv media-gfx/termtosvg media-gfx/xli media-gfx/xv
+
+media-sound/alsa-tools media-sound/mpd media-sound/mpg123 media-sound/mps-youtube media-sound/ncmpcpp media-sound/pavucontrol media-video/mpv
+
 media-video/rtmpdump
-net-analyzer/arpwatch
-net-analyzer/bmon
-net-analyzer/bwbar
-net-analyzer/bwm-ng
-net-analyzer/ifstatus
-net-analyzer/iftop
-net-analyzer/ipband
-net-analyzer/macchanger
-net-analyzer/nethogs
-net-analyzer/ngrep
-net-analyzer/nmap
-net-analyzer/prettyping
-net-analyzer/speedtest-cli
+
+net-analyzer/arpwatch net-analyzer/bmon net-analyzer/bwbar net-analyzer/bwm-ng net-analyzer/ifstatus net-analyzer/iftop net-analyzer/ipband net-analyzer/macchanger net-analyzer/nethogs net-analyzer/ngrep net-analyzer/nmap
+net-analyzer/prettyping net-analyzer/speedtest-cli
+
 net-dns/dnsmasq
-net-fs/nfs-utils
-net-fs/sshfs
-net-ftp/gftp
-net-im/discord-bin
-net-im/zoom
-net-irc/irssi
-net-irc/irssi-xmpp
-net-mail/isync
-net-mail/renattach
-net-mail/ripmime
-net-misc/autossh
-net-misc/bridge-utils
-net-misc/dhcpcd
-net-misc/drive
-net-misc/keychain
-net-misc/lanmap
-net-misc/netifrc
-net-misc/ntp
-net-misc/sb-hosts
-net-misc/sshrc
-net-misc/throttle
-net-misc/youtube-dl
-net-p2p/qbittorrent
-net-p2p/torrentinfo
+
+net-fs/nfs-utils net-fs/sshfs net-ftp/gftp
+
+net-im/discord-bin net-im/zoom
+
+net-irc/irssi net-irc/irssi-xmpp
+
+net-mail/isync net-mail/renattach net-mail/ripmime
+
+net-misc/autossh net-misc/bridge-utils net-misc/dhcpcd  net-misc/drive net-misc/keychain net-misc/lanmap net-misc/netifrc net-misc/ntp net-misc/sb-hosts net-misc/sshrc net-misc/throttle
+
+net-p2p/qbittorrent net-p2p/torrentinfo
+
 net-vpn/openvpn
+
 sci-calculators/units
-sys-apps/bar
-sys-apps/biosdevname
-sys-apps/daemonize
-sys-apps/dstat
-sys-apps/earlyoom
-sys-apps/etckeeper
-sys-apps/ethtool
-sys-apps/fakechroot
-sys-apps/hdparm
-sys-apps/hwloc
-sys-apps/lm-sensors
-sys-apps/lshw
-sys-apps/mlocate
-sys-apps/moreutils
-sys-apps/netplug
-sys-apps/pciutils
-sys-apps/preload
-sys-apps/progress
-sys-apps/pv
-sys-apps/readahead-list
-sys-apps/systemd-tmpfiles
-sys-apps/usbutils
-sys-apps/vbetool
-sys-apps/watchdog
-sys-block/blktrace
-sys-block/di
-sys-block/f3
-sys-block/gparted
-sys-block/io-scheduler-udev-rules
+
+sys-apps/bar sys-apps/biosdevname sys-apps/daemonize sys-apps/dstat sys-apps/earlyoom sys-apps/etckeeper sys-apps/ethtool sys-apps/fakechroot sys-apps/hdparm sys-apps/hwloc sys-apps/lm-sensors sys-apps/lshw sys-apps/mlocate
+sys-apps/moreutils  sys-apps/netplug sys-apps/pciutils  sys-apps/preload sys-apps/progress sys-apps/pv sys-apps/readahead-list  sys-apps/systemd-tmpfiles sys-apps/usbutils sys-apps/vbetool sys-apps/watchdog
+
+sys-block/blktrace sys-block/di sys-block/f3 sys-block/gparted sys-block/io-scheduler-udev-rules
+
 sys-boot/grub
-sys-devel/crossdev
-sys-devel/distcc
-sys-fs/android-file-transfer-linux
-sys-fs/archivemount
-sys-fs/avfs
-sys-fs/dd-rescue
-sys-fs/ddrescue
-sys-fs/dosfstools
-sys-fs/exfat-utils
-sys-fs/f2fs-tools
-sys-fs/squashfs-tools
-sys-power/acpi
-sys-power/acpitool
-sys-power/cpupower
-sys-power/hibernate-script
-sys-power/pmtools
-sys-power/powertop
-sys-power/thermald
-sys-process/at
-sys-process/bpytop::gentoo
-sys-process/daemontools-encore
-sys-process/dcron
-sys-process/htop
-sys-process/incron
-sys-process/lsof
-sys-process/nmon
-sys-process/parallel
-sys-process/schedtool
-sys-process/time
-sys-process/wait_on_pid
-sys-process/watchpid
-www-client/brave-bin
-www-client/elinks
-www-misc/monitorix
-www-misc/profile-sync-daemon::gentoo
-x11-apps/scripts
-x11-apps/setxkbmap
-x11-apps/showfont
-x11-apps/xbacklight
-x11-apps/xbiff
-x11-apps/xconsole
-x11-apps/xev
-x11-apps/xfontsel
-x11-apps/xhost
-x11-apps/xkill
-x11-apps/xlsatoms
-x11-apps/xlsclients
-x11-apps/xmodmap
-x11-apps/xprop
-x11-apps/xrandr
-x11-apps/xset
-x11-apps/xsetroot
+
+sys-devel/crossdev sys-devel/distcc
+
+sys-fs/android-file-transfer-linux sys-fs/archivemount sys-fs/avfs sys-fs/dd-rescue sys-fs/ddrescue sys-fs/dosfstools sys-fs/exfat-utils sys-fs/f2fs-tools sys-fs/squashfs-tools
+
+sys-power/acpi sys-power/acpitool sys-power/cpupower sys-power/hibernate-script sys-power/pmtools sys-power/powertop sys-power/thermald 
+
+sys-process/at sys-process/bpytop::gentoo sys-process/daemontools-encore sys-process/dcron sys-process/htop sys-process/incron sys-process/lsof sys-process/nmon sys-process/parallel sys-process/schedtool sys-process/time
+sys-process/wait_on_pid sys-process/watchpid
+
+www-client/brave-bin www-client/elinks
+
+www-misc/monitorix www-misc/profile-sync-daemon::gentoo
+
+x11-apps/scripts x11-apps/setxkbmap x11-apps/showfont x11-apps/xbacklight x11-apps/xbiff x11-apps/xconsole x11-apps/xev x11-apps/xfontsel x11-apps/xhost x11-apps/xkill x11-apps/xlsatoms x11-apps/xlsclients x11-apps/xprop
+x11-apps/xrandr x11-apps/xset x11-apps/xsetroot
+
 x11-base/xorg-server
-x11-misc/dmenu
-x11-misc/imwheel
-x11-misc/lsw
-x11-misc/qcomicbook
-x11-misc/safeeyes
-x11-misc/unclutter
-x11-misc/urxvt-perls
-x11-misc/xautomation
-x11-misc/xbindkeys
-x11-misc/xcape
-x11-misc/xcompmgr
-x11-misc/xdotool
-x11-misc/xidle
-x11-misc/xkbd
-x11-misc/xkeycaps
-x11-misc/xscreensaver
-x11-misc/xsel
-x11-misc/xsetleds
-x11-misc/xtoolwait
-x11-terms/root-tail
-x11-terms/st
+
+x11-misc/dmenu x11-misc/imwheel x11-misc/lsw x11-misc/qcomicbook x11-misc/safeeyes x11-misc/unclutter x11-misc/xautomation x11-misc/xbindkeys x11-misc/xcape x11-misc/xcompmgr x11-misc/xdotool x11-misc/xidle x11-misc/xkbd
+x11-misc/xkeycaps x11-misc/xscreensaver x11-misc/xsel x11-misc/xsetleds x11-misc/xtoolwait
+
+x11-terms/root-tail x11-terms/st

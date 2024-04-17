@@ -42,7 +42,7 @@ virtual/linux-sources firmware
 dev-lang/ghc binary
 # required by x11-misc/qcomicbook-0.9.1::desktop-kit
 # required by x11-misc/qcomicbook (argument)
-sys-kernel/debian-sources -luks -lvm -saved-config -savedconfig -logo
+sys-kernel/debian-sources -luks -lvm -saved-config savedconfig -logo
 # required by x11-misc/qcomicbook-0.9.1::desktop-kit
 # required by x11-misc/qcomicbook (argument)
 >=app-text/poppler-24.04.0 qt5

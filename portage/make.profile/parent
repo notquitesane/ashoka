@@ -5,6 +5,7 @@ core-kit:funtoo/1.0/linux-gnu/flavor/workstation
 core-kit:funtoo/1.0/linux-gnu/mix-ins/X
 core-kit:funtoo/1.0/linux-gnu/mix-ins/audio
 core-kit:funtoo/1.0/linux-gnu/mix-ins/gfxcard-radeon
+core-kit:funtoo/1.0/linux-gnu/mix-ins/pulseaudio
 browser-kit:funtoo/kits/python-kit/next
 core-gl-kit:funtoo/kits/python-kit/next
 core-hw-kit:funtoo/kits/python-kit/next
