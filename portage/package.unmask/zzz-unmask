@@ -29,3 +29,6 @@
 # required by =www-client/palemoon-bin-31.4.2 (argument)
 # /etc/portage/package.mask/all_categories:
 =www-client/palemoon-bin-31.4.2
+# required by app-admin/pydf (argument)
+# /etc/portage/package.mask/all_categories:
+=app-admin/pydf-10-r1
