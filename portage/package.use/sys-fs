@@ -1,2 +1,4 @@
+>=sys-fs/cryptsetup-2.6.0 static
+>=sys-fs/lvm2-2.02.173 static-libs
 sys-fs/android-file-transfer-linux fuse -qt5
 sys-fs/dd-rescue cpu_flags_x86_sse4_2

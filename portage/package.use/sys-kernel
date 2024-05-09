@@ -1,1 +1,2 @@
-
+sys-kernel/debian-sources -luks -logo -lvm -custom-cflags savedconfig -binary
+sys-kernel/debian-sources-lts -lvm -logo -custom-cflags -luks

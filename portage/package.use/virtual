@@ -1,4 +1,5 @@
 virtual/ffmpeg X mp3 theora -vaapi -vdpau x264
 virtual/libudev static-libs
+virtual/linux-sources firmware
 virtual/ruby-ssl ruby_targets_ruby27
 virtual/rubygems ruby_targets_ruby27

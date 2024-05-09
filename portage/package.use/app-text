@@ -1,3 +1,4 @@
+>=app-text/poppler-24.04.0 qt5
 app-text/calibre -udisks
 app-text/ghostscript-gpl cups
 app-text/pandoc hscolour

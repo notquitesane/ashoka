@@ -1,13 +1,14 @@
+>=sys-apps/busybox-1.36.0 static
 sys-apps/busybox math mdev -sep-usr -static
 sys-apps/coreutils gmp
 sys-apps/dbus X
 sys-apps/elfix ptpax
 sys-apps/etckeeper cron
-sys-apps/hwloc cairo plugins
+sys-apps/hwloc cairo
 sys-apps/iproute2 -atm berkdb elf
 sys-apps/lm_sensors contrib sensord
 sys-apps/lshw gtk
-sys-apps/man-db berkdb gdbm -nls
+sys-apps/man-db -nls
 sys-apps/openrc -bash-completion
 sys-apps/pciutils dns
 sys-apps/portage doc

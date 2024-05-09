@@ -1,9 +1,7 @@
 x11-libs/cairo X svg xcb -opengl
 x11-libs/gdk-pixbuf X jpeg tiff
 x11-libs/gtk+ X
-x11-libs/libdrm video_cards_intel libkms video_cards_amdgpu video_cards_nouveau
 x11-libs/libva X vdpau
-x11-libs/libva-intel-driver X
 x11-libs/libxcb xkb
 x11-libs/libxkbcommon X
 x11-libs/wxGTK libnotify

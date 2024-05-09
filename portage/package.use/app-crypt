@@ -1,3 +1,5 @@
+>=app-crypt/argon2-20171227-r1 static-libs
 app-crypt/gnupg doc smartcard tools usb wks-server
+app-crypt/libmd static-libs
 app-crypt/p11-kit libffi
 app-crypt/pinentry -gnome-keyring

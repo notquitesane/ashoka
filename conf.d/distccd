@@ -40,3 +40,6 @@ DISTCCD_OPTS="${DISTCCD_OPTS} -N 15"
 # Make sure to give distcc user write permission to
 # the given TMPDIR
 #TMPDIR="/tmp"
+
+# Enable zeroconf support in distccd
+DISTCCD_OPTS="${DISTCCD_OPTS} --zeroconf"

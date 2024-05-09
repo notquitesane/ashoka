@@ -1,0 +1,1 @@
+/var/git/meta-repo/kits/core-kit/profiles/funtoo/1.0/linux-gnu/arch/x86-64bit/subarch/generic_64/
